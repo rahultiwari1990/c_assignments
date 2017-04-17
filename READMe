@@ -1,0 +1,38 @@
+Prerequisites:
+
+- Need to install doxywizard to generate doxygen configuration file
+- Need to install doxygen to generate doxygen documents
+- Need to install valgrind to check memory leaks
+
+We can install it in following way for linux-Ubuntu
+	- sudo apt-get install doxygen doxygen-gui valgrind
+
+1. Extract the source code at some place
+	- unzip <name of zip file>
+
+2. Change directory path's in doxygen configuration file (link_list.conf).
+	- make new folder for documents in current directory or somewhere else(for e.g doc)
+	- change configuration options "OUTPUT_DIRECTORY" and "INPUT" in configuration file with updated path values
+		for e.g  OUTPUT_DIRECTORY       = /home/rahul/Downloads/c_assignment_v0_2/doc
+			 INPUT                  = /home/rahul/Downloads/c_assignment_v0_2
+
+2. Compile the source code
+	- make clean
+	- make
+	- make DEBUG=1 (to enable Debug prints)
+
+3. After compilation following files are generated
+	- linklist shared library (liblink_list.so)
+	- A test application binary used to test library API's (link_list_test)
+	- A telebook application binary (telebook)
+
+4. Run the application like below
+	- export LD_LIBRARY_PATH=./ (current directory)
+	- ./telebook
+	- ./link_list_test
+
+
+5. Run application with valgrind
+	- valgrind --tool=memcheck -v --leak-check=full --show-reachable=yes --leak-resolution=high ./link_list_test
+	- valgrind --tool=memcheck -v --leak-check=full --show-reachable=yes --leak-resolution=high ./telebook
+	 

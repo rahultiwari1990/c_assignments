@@ -1,0 +1,6 @@
+rahul,1,rahul123,D-16 Tirupati society,Near G.S.T Railway crossing, New Ranip, ranip,Ahemdabad,gujarat,382480,9898608112,7600768081,1234567890
+Anand,2,anand123,D-16 Tirupati society,Near G.S.T Railway crossing, New Ranip,ranip,Ahemdabad,gujarat,382480,9898608112,7600768081,1234567890
+Aman,3,aman123,D-16 Tirupati society,Near G.S.T Railway crossing, New Ranip,ranip,Ahemdabad,gujarat,382480,9898608112,7600768081,1234567890
+Ankit,4,ankit123,D-16 Tirupati society,Near G.S.T Railway crossing, New Ranip,ranip,Ahemdabad,gujarat,382480,9898608112,7600768081,1234567890
+Arpit,5,arpit123,D-16 Tirupati society,Near G.S.T Railway crossing, New Ranip,ranip,Ahemdabad,gujarat,382480,9898608112,7600768081,1234567890
+Dinesh,6,dinesh123,D-16 Tirupati society,Near G.S.T Railway crossing, New Ranip,ranip,Ahemdabad,gujarat,382480,9898608112,7600768081,1234567890
